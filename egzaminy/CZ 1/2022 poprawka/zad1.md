@@ -1,0 +1,33 @@
+### Treść
+Niech $f_0 = a$, $f_1 = b$, $f_2 = c$ oraz $f_i = f_{i-2} + f_{i-3} + i$ dla $i > 2$. Chcemy obliczyć $f_n$ stosując metodę opartą na szybkim potęgowaniu macierzy. Podaj macierz, którą bedziemy potęgować.
+
+------
+
+<details><summary>Rozwiązanie</summary>
+  
+$$
+\begin{pmatrix}
+1 & 1 & 0 & 0 & 0\\
+0 & 1 & 0 & 0 & 0\\
+0 & 0 & 0 & 1 & 0\\
+0 & 0 & 0 & 0 & 1\\
+1 & 1 & 1 & 1 & 0
+\end{pmatrix}
+\cdot
+\begin{pmatrix}
+i+2\\
+1\\
+f_i\\
+f_{i+1}\\
+f_{i+2}\\
+\end{pmatrix}=
+\begin{pmatrix}
+i+4\\
+1\\
+f_{i+1}\\
+f_{i+2}\\
+f_{i+3}
+\end{pmatrix}
+$$
+  
+    
