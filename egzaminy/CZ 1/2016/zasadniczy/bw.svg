@@ -1,0 +1,63 @@
+<svg width="440" height="400" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        svg{ /* select the SVG */
+            background-color: #eff1f5;
+        }
+        .font {
+            font: bold 20px serif;
+        }
+    </style>
+
+    <!-- Draw the rectangles -->
+    <rect x="40" y="40" width="40" height="40" stroke="black" fill="none" />
+    <rect x="40" y="140" width="40" height="40" stroke="black" fill="none" />
+    <rect x="40" y="240" width="40" height="40" stroke="black" fill="none" />
+    <rect x="40" y="340" width="40" height="40" stroke="black" fill="none" />
+    <!-- right -->
+    <rect x="340" y="40" width="40" height="40" stroke="black" fill="none" />
+    <rect x="340" y="140" width="40" height="40" stroke="black" fill="none" />
+    <rect x="340" y="240" width="40" height="40" stroke="black" fill="none" />
+    <rect x="340" y="340" width="40" height="40" stroke="black" fill="none" />
+    
+    <rect x="180" y="40" width="40" height="140" stroke="black" fill="none" />
+    <rect x="180" y="240" width="40" height="140" stroke="black" fill="none" />
+    <text x="190" y="110" class="font">P₄ </text>
+    <text x="190" y="310" class="font">P₄ </text>
+    <!-- Draw the lines -->
+    <line x1="30" y1="50"  x2="40" y2="50"  stroke="black" />
+    <line x1="30" y1="150" x2="40" y2="150" stroke="black" />
+    <line x1="30" y1="250" x2="40" y2="250" stroke="black" />
+    <line x1="30" y1="350" x2="40" y2="350" stroke="black" />
+    <line x1="30" y1="70"  x2="40" y2="70"  stroke="black" />
+    <line x1="30" y1="170" x2="40" y2="170" stroke="black" />
+    <line x1="30" y1="270" x2="40" y2="270" stroke="black" />
+    <line x1="30" y1="370" x2="40" y2="370" stroke="black" />
+
+    <line x1="380" y1="50"  x2="390" y2="50"  stroke="black" />
+    <line x1="380" y1="150" x2="390" y2="150" stroke="black" />
+    <line x1="380" y1="250" x2="390" y2="250" stroke="black" />
+    <line x1="380" y1="350" x2="390" y2="350" stroke="black" />
+    <line x1="380" y1="70"  x2="390" y2="70"  stroke="black" />
+    <line x1="380" y1="170" x2="390" y2="170" stroke="black" />
+    <line x1="380" y1="270" x2="390" y2="270" stroke="black" />
+    <line x1="380" y1="370" x2="390" y2="370" stroke="black" />
+
+    <line x1="80" y1="50"  x2="180" y2="50" stroke="black" />
+    <line x1="80" y1="150" x2="180" y2="80" stroke="black" />
+    <line x1="80" y1="250" x2="180" y2="110" stroke="black" />
+    <line x1="80" y1="350" x2="180" y2="140" stroke="black" />
+    <line x1="80" y1="70"  x2="180" y2="260" stroke="black" />
+    <line x1="80" y1="170" x2="180" y2="290" stroke="black" />
+    <line x1="80" y1="270" x2="180" y2="320" stroke="black" />
+    <line x1="80" y1="370" x2="180" y2="350" stroke="black" />
+
+    <line x2="340" y2="50"  x1="220" y1="50"  stroke="black" />
+    <line x2="340" y2="150" x1="220" y1="80"  stroke="black" />
+    <line x2="340" y2="250" x1="220" y1="110" stroke="black" />
+    <line x2="340" y2="350" x1="220" y1="140" stroke="black" />
+    <line x2="340" y2="70"  x1="220" y1="260" stroke="black" />
+    <line x2="340" y2="170" x1="220" y1="290" stroke="black" />
+    <line x2="340" y2="270" x1="220" y1="320" stroke="black" />
+    <line x2="340" y2="370" x1="220" y1="350" stroke="black" />
+
+</svg>
