@@ -1,8 +1,11 @@
 # AiSD 
 
 Pliki przydatne w nauce do egzaminu.\
-Fork z ![https://github.com/JumiDeluxe/AiSD](https://github.com/JumiDeluxe/AiSD).\
-Dodane grupowanie; rok 23-ci
+Fork z ![https://github.com/JumiDeluxe/AiSD](https://github.com/JumiDeluxe/AiSD).
+
+## co to jest?
+
+To jest zestaw pytań do egzaminu z przedmiotu Algorytmy i Struktury Danych na kierunku Informayka (pierwszego stopnia) Uniwersystetu Wrocławskiego.
 
 ## jak korzystać
 
@@ -10,7 +13,7 @@ VS Code ma wbudowany renderer do markdown'a, sam którego używałem. Niektóre 
 
 ## mój wkład
 
-(Prawie?) Każde zadanie otrzymało tag, mówiący do jakiej grupy zagadnień on należy, istnieje szansa że zadania nie zrozumiałem i wylądował w złej grupie lub jest na tyle dziwne że nie pasuje do żadnej z istniejących grup.
+(Prawie?) Każde zadanie otrzymało tag, mówiący do jakiej grupy zagadnień on należy, istnieje szansa że zadania nie zrozumiałem i wylądował w złej grupie lub jest na tyle dziwne że nie pasuje do żadnej z istniejących grup. Naklepałem też skrypcik który czyta tagi i generuje strukturę katalogów z odnośnikami do zadań z tym samym tagiem.
 
 Dodałem własne rozwiązania, nie są one w żaden sposób zweryfikowane, więc proszę nie spodziewać się że będą poprawne :)
 
