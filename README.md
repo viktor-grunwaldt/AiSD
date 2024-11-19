@@ -11,13 +11,21 @@ To jest zestaw pytań do egzaminu z przedmiotu Algorytmy i Struktury Danych na k
 
 VS Code ma wbudowany renderer do markdown'a, sam którego używałem. Niektóre rozwiązania posiadają bloki równań, które markdown z VS Code obsługuje a (w tej samej formie) Github już nie, stąd polecam pobrać repo i korzystać lokalnie.
 
+A i jeśli VS Code ci nie pasuje, to (chyba) jedyne czego github nie renderuje to te bloki formuł. Z tego co wiem, pod spodem je parsuje i renderuje KaTeX, więc można ten kod wrzucić na jakąś stronę co wygeneruje obrazek z matmą.
+
 ## mój wkład
 
 (Prawie?) Każde zadanie otrzymało tag, mówiący do jakiej grupy zagadnień on należy, istnieje szansa że zadania nie zrozumiałem i wylądował w złej grupie lub jest na tyle dziwne że nie pasuje do żadnej z istniejących grup. Naklepałem też skrypcik który czyta tagi i generuje strukturę katalogów z odnośnikami do zadań z tym samym tagiem.
 
 Dodałem własne rozwiązania, nie są one w żaden sposób zweryfikowane, więc proszę nie spodziewać się że będą poprawne :)
 
+Niektóre (w szczególności te stare) pytania posiadały już odpowiedzi. Jak uznałem że było błędne, to starałem się dać poprawne rozwiązanie. Jednak większość rozwiązań wyglądała git. 
+
+Sporo się napociłem konwertując stare rozwiązania na mój format - tj sporo z nich miało wstawione obrazki z imgura np zawierające formuły LaTeX'owe. Te mozolnie przepisywałem na kod/tekst w TeX'u embedowany w markdown który się renderuje w VS Code bez posiadania połączenia z internetem. Dzieki temu część rozwiązań nie jest uzależniona od tego, czy Imgur te zdjęcia będzie hostować czy może jednak nie. 
+
 Jeśli nie ma rozwiązania, isnieje szansa, że nie chciało mi się go pisać po raz drugi, dlatego polecam użyć skryptu grupującego na podstawie tagów i sprawdzić czy już się zadanie nie powtórzyło.
+
+Ze wgzędu na wprowadzone zmiany, uznałem że nie będę próbować robić MRki do Jumi.
 
 ## chcę pomóc
 
